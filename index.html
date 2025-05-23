@@ -2,67 +2,102 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio Excel - [Nama Kamu]</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Excel Data Analysis Portfolio - Finikrima</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7f9;
+      color: #333;
+      margin: 0;
+      padding: 0 20px;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #0a9396;
+      border-bottom: 2px solid #94d2bd;
+      padding-bottom: 6px;
+      margin-top: 0;
+    }
+    ul.projects {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.projects li {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+    ul.projects li a {
+      text-decoration: none;
+      color: #005f73;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    ul.projects li a:hover {
+      color: #0a9396;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #555;
+      border-top: 1px solid #ddd;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-
-  <!-- Header -->
-  <header class="bg-white shadow-md py-6">
-    <div class="container mx-auto px-4">
-      <h1 class="text-3xl font-bold text-center">Portfolio Excel - [Nama Kamu]</h1>
-      <p class="text-center text-gray-600 mt-2">Kumpulan proyek dan dashboard yang saya buat menggunakan Microsoft Excel</p>
-    </div>
+<body>
+  <header>
+    <h1>Portfolio Excel Data Analysis</h1>
+    <p>By Finikrima</p>
   </header>
 
-  <!-- Portfolio Section -->
-  <section class="py-12">
-    <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-semibold mb-6 text-center">Proyek Excel Saya</h2>
-      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+  <main>
+    <section>
+      <h2>Halo, saya Finikrima 👋</h2>
+      <p>Saya seorang data analyst yang gemar mengolah dan menganalisis data menggunakan Microsoft Excel. Di portofolio ini, saya menampilkan beberapa proyek analisis data yang saya kerjakan untuk berbagai kebutuhan, baik bisnis maupun riset.</p>
+    </section>
 
-        <!-- Project Card 1 -->
-        <div class="bg-white p-4 rounded-xl shadow">
-          <img src="https://via.placeholder.com/400x250?text=Dashboard+1" alt="Project 1" class="rounded-md mb-4">
-          <h3 class="text-lg font-semibold">Dashboard Keuangan Bulanan</h3>
-          <p class="text-sm text-gray-600 mt-1 mb-3">Visualisasi pemasukan dan pengeluaran bulanan menggunakan pivot table dan chart dinamis.</p>
-          <a href="#" class="text-blue-500 hover:underline">Lihat file</a>
-        </div>
+    <section>
+      <h2>Proyek Analisis Data</h2>
+      <ul class="projects">
+        <li><a href="files/analisis-penjualan.xlsx" target="_blank" rel="noopener noreferrer">Analisis Penjualan Produk</a> – Analisis tren penjualan dan produk terlaris.</li>
+        <li><a href="files/dashboard-keuangan.xlsx" target="_blank" rel="noopener noreferrer">Dashboard Keuangan</a> – Visualisasi pemasukan, pengeluaran, dan laporan keuangan.</li>
+        <li><a href="files/forecast-produksi.xlsx" target="_blank" rel="noopener noreferrer">Peramalan Produksi</a> – Prediksi produksi berdasarkan data historis.</li>
+        <li><a href="files/analisis-survei.xlsx" target="_blank" rel="noopener noreferrer">Analisis Survei Kepuasan Pelanggan</a> – Pengolahan data kuesioner dan visualisasi hasil.</li>
+      </ul>
+    </section>
 
-        <!-- Project Card 2 -->
-        <div class="bg-white p-4 rounded-xl shadow">
-          <img src="https://via.placeholder.com/400x250?text=Dashboard+2" alt="Project 2" class="rounded-md mb-4">
-          <h3 class="text-lg font-semibold">Rekap Absensi Otomatis</h3>
-          <p class="text-sm text-gray-600 mt-1 mb-3">Menggunakan rumus dan conditional formatting untuk memudahkan rekap absensi kelas atau kantor.</p>
-          <a href="#" class="text-blue-500 hover:underline">Lihat file</a>
-        </div>
+    <section>
+      <h2>Kontak</h2>
+      <p>Jika kamu ingin berdiskusi lebih lanjut atau kolaborasi, silakan hubungi saya melalui:</p>
+      <ul>
+        <li>Email: <a href="mailto:finikrima@email.com">finikrima@email.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/finikrima" target="_blank" rel="noopener noreferrer">linkedin.com/in/finikrima</a></li>
+      </ul>
+    </section>
+  </main>
 
-        <!-- Project Card 3 -->
-        <div class="bg-white p-4 rounded-xl shadow">
-          <img src="https://via.placeholder.com/400x250?text=Dashboard+3" alt="Project 3" class="rounded-md mb-4">
-          <h3 class="text-lg font-semibold">Analisis Penjualan</h3>
-          <p class="text-sm text-gray-600 mt-1 mb-3">Analisis tren penjualan harian dengan VLOOKUP, slicer, dan grafik interaktif.</p>
-          <a href="#" class="text-blue-500 hover:underline">Lihat file</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="bg-white py-12 border-t">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-xl font-semibold mb-4">Tertarik Bekerja Sama?</h2>
-      <p class="text-gray-600 mb-4">Silakan hubungi saya melalui email atau media sosial berikut.</p>
-      <p class="text-blue-600 font-medium">[emailkamu@email.com]</p>
-      <p class="text-gray-600 mt-2">LinkedIn / Instagram / WhatsApp</p>
-    </div>
-  </section>
-
-  <footer class="text-center text-sm text-gray-500 py-6">
-    © 2025 [Nama Kamu]. All rights reserved.
+  <footer>
+    &copy; 2025 Finikrima. All rights reserved.
   </footer>
-
 </body>
 </html>
